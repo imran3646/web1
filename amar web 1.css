@@ -1,0 +1,368 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.topbarMain {
+
+    background: #f5f5f5;
+}
+
+.Container
+        {
+            width: 1140px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: auto;
+        }
+
+.Phone{
+
+    width: 200px;
+    float: left;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 15px 10px;
+}
+.Phone i{
+
+    color: #ff5200;
+    margin-right: 4px;
+
+
+}
+
+.Mail{
+
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+}
+.Mail i{
+
+    color: #ff5200;
+    margin-right: 4px;
+}
+
+.Socail{
+
+    width: 140px;
+    float: left;
+    transition: 0.3s;
+}
+
+
+.TopbarWrapper{
+
+    overflow: hidden;
+}
+
+.Socail a{
+
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2b2b2b
+}
+
+.Socail i:hover{
+color: #ff5200;
+    
+}
+.Socail a:first-child{
+
+
+    border-left: 1px solid #ddd;
+}
+.PrimaryMenu {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+   margin-top: 26px;
+}
+
+.menu {
+    width: 990px;
+    float: left;
+}
+
+ul.MainmenuItem {
+    list-style: none;
+    float: right;
+}
+ul.MainmenuItem li {
+    float: left;
+}
+
+ul.MainmenuItem li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 16px;
+    display: block;
+    padding: 30px 24px;
+    color: #0e0e0e;
+    font-weight: 600;
+    transition: 0.5s;
+}
+li#searchbtn {
+    margin-top: 2px;
+}
+
+ul.MainmenuItem li a:hover{
+    color: #ff5200;
+}
+
+#homeslider{
+    background: url(web.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.sliderContent {
+    color: white;
+    width: 600px;
+}
+
+.sliderContent p {
+    font-weight: 600;
+    line-height: 25px;
+    width: 460px;
+    margin-bottom: 30px;
+}
+
+.sliderContent h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    float: left;
+}
+
+button#sliderbtn {
+    background-color: #ff5200;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 3px;
+    margin-bottom: 120px;
+}
+
+.sliderNav {
+    width: 60px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.sliderNav span {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 7px 7px;
+}
+.sliderNav span:hover {
+    background-color: #ff5200;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.topbarMain {
+
+    background: #f5f5f5;
+}
+
+.Container
+        {
+            width: 1140px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: auto;
+        }
+
+.Phone{
+
+    width: 200px;
+    float: left;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 15px 10px;
+}
+.Phone i{
+
+    color: #ff5200;
+    margin-right: 4px;
+
+
+}
+
+.Mail{
+
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+}
+.Mail i{
+
+    color: #ff5200;
+    margin-right: 4px;
+}
+
+.Socail{
+
+    width: 140px;
+    float: left;
+    transition: 0.3s;
+}
+
+
+.TopbarWrapper{
+
+    overflow: hidden;
+}
+
+.Socail a{
+
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2b2b2b
+}
+
+.Socail i:hover{
+color: #ff5200;
+    
+}
+.Socail a:first-child{
+
+
+    border-left: 1px solid #ddd;
+}
+.PrimaryMenu {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+   margin-top: 26px;
+}
+
+.menu {
+    width: 990px;
+    float: left;
+}
+
+ul.MainmenuItem {
+    list-style: none;
+    float: right;
+}
+ul.MainmenuItem li {
+    float: left;
+}
+
+ul.MainmenuItem li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 16px;
+    display: block;
+    padding: 30px 24px;
+    color: #0e0e0e;
+    font-weight: 600;
+    transition: 0.5s;
+}
+li#searchbtn {
+    margin-top: 2px;
+}
+
+ul.MainmenuItem li a:hover{
+    color: #ff5200;
+}
+
+#homeslider{
+    background: url(web.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.sliderContent {
+    color: white;
+    width: 600px;
+}
+
+.sliderContent p {
+    font-weight: 600;
+    line-height: 25px;
+    width: 460px;
+    margin-bottom: 30px;
+}
+
+.sliderContent h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    float: left;
+}
+
+button#sliderbtn {
+    background-color: #ff5200;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 3px;
+    margin-bottom: 120px;
+}
+
+.sliderNav {
+    width: 60px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.sliderNav span {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 7px 7px;
+}
+.sliderNav span:hover {
+    background-color: #ff5200;
+}
+
+
